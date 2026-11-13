@@ -1,0 +1,19 @@
+{
+  "name": "carol-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that creates a voice chat and plays Christmas carols",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.16.0",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "opusscript": "^0.1.1"
+  }
+}
